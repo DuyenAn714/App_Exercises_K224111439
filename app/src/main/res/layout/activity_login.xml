@@ -26,7 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/title_login_username_hint"
         android:inputType="text"
         android:textSize="24sp" />
 
@@ -42,14 +41,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
-        android:text="@string/title_login_password_hint" />
+        android:inputType="text"/>
 
     <CheckBox
         android:id="@+id/chkSaveLoginInfor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title_login_save_login_infor"
         android:textSize="24sp" />
 
     <LinearLayout

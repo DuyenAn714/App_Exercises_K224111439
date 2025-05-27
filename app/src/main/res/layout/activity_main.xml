@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="k22411csampleproject.MainActivity">
+    tools:context="k22411csampleproject.MainActivity" >
 
     <TableLayout
         android:stretchColumns="*"
@@ -35,9 +35,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/title_employee"
                     android:textAlignment="center"
-                    android:textColor="#F60B0B"
+                    android:textColor="#009688"
                     android:textSize="24sp" />
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -57,18 +56,58 @@
                     android:layout_height="wrap_content"
                     android:text="@string/title_customer"
                     android:textAlignment="center"
-                    android:textColor="#E91010"
+                    android:textColor="#009688"
                     android:textSize="24sp" />
-
             </LinearLayout>
-
-
         </TableRow>
-
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    app:srcCompat="@mipmap/ic_product" />
+
+                <TextView
+                    android:id="@+id/txtCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_product"
+                    android:textAlignment="center"
+                    android:textColor="#009688"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    app:srcCompat="@mipmap/ic_advance_product" />
+
+                <TextView
+                    android:id="@+id/txtProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_advancedproduct"
+                    android:textAlignment="center"
+                    android:textColor="#009688"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </TableRow>
+
 
         <TableRow
             android:layout_width="match_parent"
