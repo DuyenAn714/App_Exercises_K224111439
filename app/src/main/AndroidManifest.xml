@@ -13,6 +13,18 @@
         android:theme="@style/Theme.K224111439Project"
         tools:targetApi="31">
         <activity
+            android:name=".ItemPaymentMethodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvancedProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".k22411csampleproject.PaymentMethodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".k22411csampleproject.AdvancedProductManagementActivity"
+            android:exported="false" />
+        <activity
             android:name=".k22411csampleproject.ProductManagementActivity"
             android:exported="false" />
         <activity
